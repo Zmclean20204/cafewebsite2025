@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Grind Hard Café/Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<header class="hero">
+    <div class="hero-content">
+        <h1>Grind Hard Café</h1>
+        <p>Cozy coffee • Fresh bites • Good vibes</p>
+        <nav class="nav">
+            <a href="#menu">Menu</a>
+            <a href="#events">Events</a>
+            <a href="#gallery">Photos</a>
+            <a href="#visit">Visit Us</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <!-- About -->
+    <section class="section" id="about">
+        <div class="section-header">
+            <h2>Welcome</h2>
+            <p>A neighborhood café serving handcrafted drinks and fresh food.</p>
+        </div>
+        <p>Eat In, Breakfast, Brunch, Pastries, Coffee, Tea</p>
+    </section>
+
+    <!-- Menu -->
+    <section class="section" id="menu">
+        <div class="section-header">
+            <h2>Menu</h2>
+            <p>Tap “Add” to build your cart, then call to order. Click an item name to see a photo (when available).</p>
+        </div>
+
+        <div class="menu-category">
+            <h3>Coffee & Drinks</h3>
+
+            <div class="menu-list">
+                <h4>Hot Coffee</h4>
+
+                <div class="menu-item" data-name="Espresso" data-price="3.00">
+                    <span>Espresso</span><span>$3.00</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Double Espresso" data-price="3.75">
+                    <span>Double Espresso</span><span>$3.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Drip Coffee (Small)" data-price="3.75">
+                    <span>Drip Coffee (Small)</span><span>$3.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Drip Coffee (Large)" data-price="4.25">
+                    <span>Drip Coffee (Large)</span><span>$4.25</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Cappuccino (Small)" data-price="5.50">
+                    <span>Cappuccino (Small)</span><span>$5.50</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Cappuccino (Large)" data-price="6.00">
+                    <span>Cappuccino (Large)</span><span>$6.00</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Latte (Small)" data-price="5.50">
+                    <span>Latte (Small)</span><span>$5.50</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Latte (Large)" data-price="6.00">
+                    <span>Latte (Large)</span><span>$6.00</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Mocha (Small)" data-price="6.25">
+                    <span>Mocha (Small)</span><span>$6.25</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Mocha (Large)" data-price="6.75">
+                    <span>Mocha (Large)</span><span>$6.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+            </div>
+
+            <div class="menu-list">
+                <h4>Iced Coffee</h4>
+
+                <div class="menu-item" data-name="Iced Cappuccino (Small)" data-price="5.75">
+                    <span>Iced Cappuccino (Small)</span><span>$5.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Iced Cappuccino (Large)" data-price="6.50">
+                    <span>Iced Cappuccino (Large)</span><span>$6.50</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Iced Latte (Small)" data-price="5.75">
+                    <span>Iced Latte (Small)</span><span>$5.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Iced Latte (Large)" data-price="6.50">
+                    <span>Iced Latte (Large)</span><span>$6.50</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Cold Brew (Small)" data-price="5.75">
+                    <span>Cold Brew (Small)</span><span>$5.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Cold Brew (Large)" data-price="6.50">
+                    <span>Cold Brew (Large)</span><span>$6.50</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Iced Mocha (Small)" data-price="6.50">
+                    <span>Iced Mocha (Small)</span><span>$6.50</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Iced Mocha (Large)" data-price="7.00">
+                    <span>Iced Mocha (Large)</span><span>$7.00</span><button class="add-btn" type="button">Add</button>
+                </div>
+            </div>
+
+            <div class="menu-list">
+                <h4>Tea</h4>
+
+                <div class="menu-item" data-name="Matcha Latte (Small)" data-price="6.00">
+                    <span>Matcha Latte (Small)</span><span>$6.00</span><button class="add-btn" type="button">Add</button>
+                </div>
+                <div class="menu-item" data-name="Matcha Latte (Large)" data-price="6.75">
+                    <span>Matcha Latte (Large)</span><span>$6.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Jasmine Green Tea (Small)" data-price="3.25">
+                    <span>Jasmine Green Tea (Small)</span><span>$3.25</span><button class="add-btn" type="button">Add</button>
+                </div>
+                <div class="menu-item" data-name="Jasmine Green Tea (Large)" data-price="3.75">
+                    <span>Jasmine Green Tea (Large)</span><span>$3.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="English Breakfast (Small)" data-price="3.25">
+                    <span>English Breakfast (Small)</span><span>$3.25</span><button class="add-btn" type="button">Add</button>
+                </div>
+                <div class="menu-item" data-name="English Breakfast (Large)" data-price="3.75">
+                    <span>English Breakfast (Large)</span><span>$3.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Chamomile (Small)" data-price="3.25">
+                    <span>Chamomile (Small)</span><span>$3.25</span><button class="add-btn" type="button">Add</button>
+                </div>
+                <div class="menu-item" data-name="Chamomile (Large)" data-price="3.75">
+                    <span>Chamomile (Large)</span><span>$3.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Peppermint (Small)" data-price="3.25">
+                    <span>Peppermint (Small)</span><span>$3.25</span><button class="add-btn" type="button">Add</button>
+                </div>
+                <div class="menu-item" data-name="Peppermint (Large)" data-price="3.75">
+                    <span>Peppermint (Large)</span><span>$3.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Flu Fighter (Small)" data-price="3.25">
+                    <span>Flu Fighter (Small)</span><span>$3.25</span><button class="add-btn" type="button">Add</button>
+                </div>
+                <div class="menu-item" data-name="Flu Fighter (Large)" data-price="3.75">
+                    <span>Flu Fighter (Large)</span><span>$3.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+            </div>
+
+            <div class="menu-list">
+                <h4>Iced Tea</h4>
+
+                <div class="menu-item" data-name="Iced Matcha Latte (Small)" data-price="6.50">
+                    <span>Iced Matcha Latte (Small)</span><span>$6.50</span><button class="add-btn" type="button">Add</button>
+                </div>
+                <div class="menu-item" data-name="Iced Matcha Latte (Large)" data-price="7.00">
+                    <span>Iced Matcha Latte (Large)</span><span>$7.00</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Lychee Green Tea (Small)" data-price="5.75">
+                    <span>Lychee Green Tea (Small)</span><span>$5.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+                <div class="menu-item" data-name="Lychee Green Tea (Large)" data-price="6.50">
+                    <span>Lychee Green Tea (Large)</span><span>$6.50</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Dragon Fruit Tea (Small)" data-price="5.75">
+                    <span>Dragon Fruit Tea (Small)</span><span>$5.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+                <div class="menu-item" data-name="Dragon Fruit Tea (Large)" data-price="6.50">
+                    <span>Dragon Fruit Tea (Large)</span><span>$6.50</span><button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Purple Punch Berry Tea (Small)" data-price="5.75">
+                    <span>Purple Punch Berry Tea (Small)</span><span>$5.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+                <div class="menu-item" data-name="Purple Punch Berry Tea (Large)" data-price="6.50">
+                    <span>Purple Punch Berry Tea (Large)</span><span>$6.50</span><button class="add-btn" type="button">Add</button>
+                </div>
+            </div>
+
+            <div class="menu-list">
+                <h4>Add-ons</h4>
+                <div class="menu-item" data-name="Boosted Shot (Lychee)" data-price="4.75">
+                    <span>Boosted Shot (Lychee)</span><span>$4.75</span><button class="add-btn" type="button">Add</button>
+                </div>
+                <p class="menu-hint">Flavors & milk options: ask in store or on the phone.</p>
+            </div>
+        </div>
+
+        <!-- FOOD MENU (with photos) -->
+        <div class="menu-category">
+            <h3>Food Menu</h3>
+
+            <!-- IMPORTANT: if any photo doesn't show, update the data-img to match your exact filename in /images -->
+            <div class="menu-list">
+                <h4>Featured Plates</h4>
+
+                <div class="menu-item" data-name="Chicken and Waffles" data-price="14.99" data-img="images/chicken-and-waffles.jpg">
+                    <span>Chicken and Waffles</span><span>$14.99</span>
+                    <button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Seafood Boil" data-price="29.99" data-img="images/seafood-boil.jpg">
+                    <span>Seafood Boil</span><span>$29.99</span>
+                    <button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Salmon Chopped Cheese" data-price="12.99" data-img="images/salmon-chopped-cheese.jpg">
+                    <span>Salmon Chopped Cheese</span><span>$12.99</span>
+                    <button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Burger and Fries" data-price="13.99" data-img="images/burger-and-fries2.jpg">
+                    <span>Burger and Fries</span><span>$13.99</span>
+                    <button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Bacon Egg &amp; Cheese" data-price="7.99" data-img="images/cafe-bec.jpg">
+                    <span>Bacon Egg &amp; Cheese</span><span>$7.99</span>
+                    <button class="add-btn" type="button">Add</button>
+                </div>
+
+                <div class="menu-item" data-name="Shrimp and Grits" data-price="18.99" data-img="images/cafe-shrimp-and-grits.jpg">
+                    <span>Shrimp and Grits</span><span>$18.99</span>
+                    <button class="add-btn" type="button">Add</button>
+                </div>
+            </div>
+
+
+            <p class="menu-hint">
+
+            </p>
+        </div>
+
+        <div class="menu-category">
+            <h3>Pastries & Bites</h3>
+
+            <div class="card-grid">
+                <article class="card card-menu">
+                    <div>
+                        <h4>Butter Croissant</h4>
+                        <p>Flaky, buttery, baked every morning.</p>
+                    </div>
+                    <div class="card-actions">
+                        <span class="price">$3.25</span>
+                        <button class="add-btn" type="button" data-name="Butter Croissant" data-price="3.25">Add</button>
+                    </div>
+                </article>
+
+                <article class="card card-menu">
+                    <div>
+                        <h4>Breakfast Sandwich</h4>
+                        <p>Egg, cheese, and your choice of meat on a brioche bun.</p>
+                    </div>
+                    <div class="card-actions">
+                        <span class="price">$6.50</span>
+                        <button class="add-btn" type="button" data-name="Breakfast Sandwich" data-price="6.50">Add</button>
+                    </div>
+                </article>
+
+                <article class="card card-menu">
+                    <div>
+                        <h4>Avocado Toast</h4>
+
+                        <p>Sourdough toast with smashed avocado & toppings.</p>
+                    </div>
+                    <div class="card-actions">
+                        <span class="price">$7.25</span>
+                        <button class="add-btn" type="button" data-name="Avocado Toast" data-price="7.25" data-img="images/avacado toast.png">Add</button>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events -->
+    <section class="section" id="events">
+        <div class="section-header">
+            <h2>Events</h2>
+            <p>Live music, open mics, and community nights.</p>
+        </div>
+
+        <div class="card-grid">
+            <article class="card">
+                <h3>Taco Tuesday</h3>
+                <p class="event-meta">Every Tuesday • 7:00 PM – 9:00 PM</p>
+                <p>Singers, poets, and performers are welcome. Sign-up starts at 6:30 PM.</p>
+            </article>
+
+            <article class="card">
+                <h3>CutWater Wednesday</h3>
+                <p class="event-meta">Every other Wednesday • Check our socials for dates</p>
+                <p>Local jazz bands set the mood. Limited seating — arrive early to grab a table.</p>
+            </article>
+
+            <article class="card">
+                <h3>FishFry Friday</h3>
+                <p class="event-meta">Every Friday • 3:00 PM – 8:00 PM</p>
+                <p>Learn how to pour latte art with our baristas. Includes a free drink and pastry.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="section" id="gallery">
+        <div class="section-header">
+            <h2>Photos</h2>
+            <p>A peek inside and around the café.</p>
+        </div>
+
+        <div class="gallery-grid">
+            <figure class="gallery-item">
+                <img src="images/store-front.jpg" alt="Store front" />
+                <figcaption>Store Front</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/inside-the-cafe.jpg" alt="Inside the cafe" />
+                <figcaption>Inside the Café</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/seating.jpg" alt="Vibes and seating" />
+                <figcaption>Vibes &amp; Seating</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/register.jpg" alt="Register area" />
+                <figcaption>Register</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/expesso-machine.jpg" alt="Espresso machine" />
+                <figcaption>Espresso Machine</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/kitchen1.jpg" alt="Kitchen" />
+                <figcaption>Kitchen</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/teas.jpg" alt="Tea selection" />
+                <figcaption>Teas</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/cafe-flavors.jpg" alt="Cafe flavors" />
+                <figcaption>Flavors</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/cafe3.jpg" alt="Cafe view" />
+                <figcaption>Café</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/cafe5.jpg" alt="Cafe view" />
+                <figcaption>Café</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/cafe6.jpg" alt="Cafe view" />
+                <figcaption>Café</figcaption>
+            </figure>
+
+            <figure class="gallery-item">
+                <img src="images/cafe7.jpg" alt="Cafe view" />
+                <figcaption>Café</figcaption>
+            </figure>
+        </div>
+
+    </section>
+
+    <!-- Visit / Contact -->
+    <section class="section" id="visit">
+        <div class="section-header">
+            <h2>Visit Us</h2>
+            <p>Drop by, grab a drink, and stay a while.</p>
+        </div>
+
+        <div class="visit-layout">
+            <div>
+                <h3>Hours</h3>
+                <ul class="hours">
+                    <li>Mon – Fri: 7:00 AM – 12:00 AM</li>
+                    <li>Saturday: 8:00 AM – 12:00 AM</li>
+                    <li>Sunday: 8:00 AM – 12:00 AM</li>
+                </ul>
+
+                <h3>Location</h3>
+                <p>
+                    2150 Fulton st <br />
+                    Brooklyn, NY 11233
+                </p>
+
+                <h3>Contact</h3>
+                <p>
+                    Phone: <a href="tel:3472403960">(347) 240-3960</a><br />
+                    Email: <a href="mailto:Grindhardcafe@gmail.com">Grindhardcafe@gmail.com</a>
+                </p>
+            </div>
+
+            <div class="map-placeholder">
+                <p>Map / Exterior photo here</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>© <span id="year"></span> Grind Hard Café. All rights reserved.</p>
+</footer>
+
+<!-- Cart Button (Floating) -->
+<button class="cart-fab" id="openCart" aria-label="Open cart">
+    Cart (<span id="cartCount">0</span>)
+</button>
+
+<!-- Cart Drawer -->
+<aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-header">
+        <h3>Your Cart</h3>
+        <button class="cart-close" id="closeCart" type="button" aria-label="Close cart">✕</button>
+    </div>
+
+    <div class="cart-body">
+        <div id="cartItems" class="cart-items"></div>
+
+        <div class="cart-summary">
+            <div class="cart-row">
+                <span>Total items</span>
+                <span id="cartTotalItems">0</span>
+            </div>
+        </div>
+
+        <p class="cart-note">
+            No online checkout — build your order here, then call to place it.
+        </p>
+
+        <a class="cart-call" id="callToOrder" href="tel:3472403960">
+            Call to Order: (347) 240-3960
+        </a>
+
+        <button class="cart-clear" id="clearCart" type="button">Clear Cart</button>
+    </div>
+</aside>
+
+<div class="cart-backdrop" id="cartBackdrop" aria-hidden="true"></div>
+
+<!-- Photo Modal -->
+<div class="modal" id="photoModal" aria-hidden="true" role="dialog" aria-label="Menu item photo">
+    <div class="modal-card" role="document">
+        <div class="modal-header">
+            <h3 id="modalTitle">Item</h3>
+            <button class="modal-close" id="closePhoto" type="button" aria-label="Close photo">✕</button>
+        </div>
+        <img id="modalImg" src="" alt="" />
+        <p class="modal-hint">Tip: click “Add” to put it in your cart.</p>
+    </div>
+</div>
+
+<script>
+    // Footer year
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // --- Simple cart (localStorage) ---
+    const CART_KEY = "grindhard_cart_v1";
+
+    const cartDrawer = document.getElementById("cartDrawer");
+    const cartBackdrop = document.getElementById("cartBackdrop");
+    const cartItemsEl = document.getElementById("cartItems");
+    const cartCountEl = document.getElementById("cartCount");
+    const cartTotalItemsEl = document.getElementById("cartTotalItems");
+
+    // --- Photo Modal ---
+    const photoModal = document.getElementById("photoModal");
+    const modalTitle = document.getElementById("modalTitle");
+    const modalImg = document.getElementById("modalImg");
+    const closePhotoBtn = document.getElementById("closePhoto");
+
+    function loadCart() {
+      try { return JSON.parse(localStorage.getItem(CART_KEY)) || {}; }
+      catch { return {}; }
+    }
+
+    function saveCart(cart) {
+      localStorage.setItem(CART_KEY, JSON.stringify(cart));
+    }
+
+    function totalItems(cart) {
+      return Object.values(cart).reduce((sum, item) => sum + item.qty, 0);
+    }
+
+    function openCart() {
+      cartDrawer.classList.add("open");
+      cartBackdrop.classList.add("open");
+      cartDrawer.setAttribute("aria-hidden", "false");
+      cartBackdrop.setAttribute("aria-hidden", "false");
+    }
+
+    function closeCart() {
+      cartDrawer.classList.remove("open");
+      cartBackdrop.classList.remove("open");
+      cartDrawer.setAttribute("aria-hidden", "true");
+      cartBackdrop.setAttribute("aria-hidden", "true");
+    }
+
+    function renderCart() {
+      const cart = loadCart();
+      const total = totalItems(cart);
+
+      cartCountEl.textContent = total;
+      cartTotalItemsEl.textContent = total;
+
+      cartItemsEl.innerHTML = "";
+
+      const entries = Object.entries(cart);
+      if (entries.length === 0) {
+        cartItemsEl.innerHTML = `<p style="color:#6b7280;">Your cart is empty. Tap “Add” on menu items.</p>`;
+        return;
+      }
+
+      for (const [key, item] of entries) {
+        const row = document.createElement("div");
+        row.className = "cart-item";
+        row.innerHTML = `
+          <div class="cart-item-top">
+            <div>
+              <div class="cart-item-name">${item.name}</div>
+              <div style="color:#6b7280;font-size:0.9rem;">$${item.price.toFixed(2)} each</div>
+            </div>
+
+            <div class="cart-item-controls">
+              <button class="qty-btn" data-action="dec" data-key="${key}" type="button">−</button>
+              <span class="qty">${item.qty}</span>
+              <button class="qty-btn" data-action="inc" data-key="${key}" type="button">+</button>
+            </div>
+          </div>
+        `;
+        cartItemsEl.appendChild(row);
+      }
+    }
+
+    // Helpers: try loading an image (so the modal doesn't show broken icons)
+    function tryLoadImage(src) {
+      return new Promise((resolve, reject) => {
+        const img = new Image();
+        img.onload = () => resolve(src);
+        img.onerror = reject;
+        img.src = src;
+      });
+    }
+
+    async function openPhotoFor(name, preferredSrc) {
+      modalTitle.textContent = name;
+
+      const candidates = [];
+      if (preferredSrc) candidates.push(preferredSrc);
+
+      // Some common filename guesses (you can ignore if you use data-img everywhere)
+      const lower = name.toLowerCase();
+      const spaced = `images/${lower}.jpg`;
+      const spacedJpeg = `images/${lower}.jpeg`;
+      const spacedPng = `images/${lower}.png`;
+      candidates.push(spaced, spacedJpeg, spacedPng);
+
+      // Known “real” filenames from your folder (edit if yours differ)
+      const known = {
+        "Avocado Toast": ["images/avacado toast.png", "images/avocado toast.png", "images/avocado-toast.png"],
+        "Chicken and Waffles": ["images/chicken and waffles.jpeg", "images/chicken and waffles.jpg", "images/chicken-and-waffles.jpeg"],
+        "Seafood Boil": ["images/seafood boil.jpeg", "images/seafood boil.jpg", "images/seafood-boil.jpeg"],
+        "Salmon Chopped Cheese": ["images/salmon chopped chee.jpeg", "images/salmon chopped chee.jpg", "images/salmon-chopped-chee.jpeg"],
+        "Burger and Fries": ["images/burger and fries 2.jpeg", "images/burger and fries 2.jpg", "images/burger-and-fries-2.jpeg"],
+        "Cafe BEC": ["images/cafe bec.jpeg", "images/cafe bec.jpg", "images/cafe-bec.jpeg"],
+        "Shrimp and Grits": ["images/cafe shrimp and grits.jpeg", "images/cafe shrimp and grits.jpg", "images/cafe-shrimp-and-grits.jpeg"]
+      };
+
+      if (known[name]) candidates.unshift(...known[name]);
+
+      // Pick the first one that actually loads
+      let finalSrc = "";
+      for (const src of candidates) {
+        try {
+          finalSrc = await tryLoadImage(src);
+          break;
+        } catch (_) {}
+      }
+
+      if (!finalSrc) {
+        // fallback: show nothing, but still open with a message
+        modalImg.removeAttribute("src");
+        modalImg.alt = "";
+        modalImg.style.display = "none";
+      } else {
+        modalImg.style.display = "block";
+        modalImg.src = finalSrc;
+        modalImg.alt = name;
+      }
+
+      photoModal.classList.add("open");
+      photoModal.setAttribute("aria-hidden", "false");
+      document.body.classList.add("no-scroll");
+    }
+
+    function closePhoto() {
+      photoModal.classList.remove("open");
+      photoModal.setAttribute("aria-hidden", "true");
+      modalImg.src = "";
+      modalImg.style.display = "block";
+      document.body.classList.remove("no-scroll");
+    }
+
+    // Make menu names clickable (menu rows + cards)
+    function enhanceClickableNames() {
+      // Menu rows: first span is the name
+      document.querySelectorAll(".menu-item > span:first-child").forEach((el) => {
+        el.classList.add("menu-name");
+        el.setAttribute("role", "button");
+        el.tabIndex = 0;
+      });
+
+      // Cards: h4 is the name
+      document.querySelectorAll(".card-menu h4").forEach((el) => {
+        el.classList.add("menu-name");
+        el.setAttribute("role", "button");
+        el.tabIndex = 0;
+      });
+    }
+
+    enhanceClickableNames();
+
+    // Click handlers:
+    document.addEventListener("click", (e) => {
+      // 1) Add buttons (works for menu rows AND pastry cards)
+      const addBtn = e.target.closest(".add-btn");
+      if (addBtn) {
+        const fromButton = addBtn.dataset.name && addBtn.dataset.price;
+        const itemEl = fromButton ? addBtn : addBtn.closest(".menu-item");
+
+        const name = itemEl?.dataset?.name;
+        const price = parseFloat(itemEl?.dataset?.price || "0");
+
+        if (!name || Number.isNaN(price)) return;
+
+        const cart = loadCart();
+        const key = name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+
+        if (!cart[key]) cart[key] = { name, price, qty: 0 };
+        cart[key].qty += 1;
+
+        saveCart(cart);
+        renderCart();
+        openCart();
+        return;
+      }
+
+      // 2) Qty buttons
+      const qtyBtn = e.target.closest(".qty-btn");
+      if (qtyBtn) {
+        const action = qtyBtn.dataset.action;
+        const key = qtyBtn.dataset.key;
+
+        const cart = loadCart();
+        if (!cart[key]) return;
+
+        if (action === "inc") cart[key].qty += 1;
+        if (action === "dec") cart[key].qty -= 1;
+
+        if (cart[key].qty <= 0) delete cart[key];
+
+        saveCart(cart);
+        renderCart();
+        return;
+      }
+
+      // 3) Click name to open photo
+      const nameEl = e.target.closest(".menu-name");
+      if (nameEl) {
+        // If this was inside a menu-item row, use its data-name/data-img
+        const row = nameEl.closest(".menu-item");
+        const card = nameEl.closest(".card-menu");
+
+        if (row) {
+          const name = row.dataset.name || nameEl.textContent.trim();
+          const img = row.dataset.img || "";
+          openPhotoFor(name, img);
+          return;
+        }
+
+        if (card) {
+          const name = nameEl.textContent.trim();
+          // if the Add button has data-img, use it
+          const btn = card.querySelector(".add-btn");
+          const img = btn?.dataset?.img || "";
+          openPhotoFor(name, img);
+          return;
+        }
+      }
+    });
+
+    // Keyboard: Enter/Space on menu-name
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        closePhoto();
+        closeCart();
+        return;
+      }
+
+      const active = document.activeElement;
+      const isMenuName = active && active.classList && active.classList.contains("menu-name");
+      if (isMenuName && (e.key === "Enter" || e.key === " ")) {
+        e.preventDefault();
+        active.click();
+      }
+    });
+
+    // Open/close cart (stop clicks from doing anything else)
+    document.getElementById("openCart").addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      openCart();
+    });
+
+    document.getElementById("closeCart").addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      closeCart();
+    });
+
+    cartBackdrop.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      closeCart();
+    });
+
+    // Close photo modal
+    closePhotoBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      closePhoto();
+    });
+
+    photoModal.addEventListener("click", (e) => {
+      // Click outside the card closes
+      if (e.target === photoModal) closePhoto();
+    });
+
+    // Clear cart
+    document.getElementById("clearCart").addEventListener("click", () => {
+      localStorage.removeItem(CART_KEY);
+      renderCart();
+    });
+
+    // Initial render
+    renderCart();
+</script>
+</body>
+</html>
